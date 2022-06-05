@@ -16,6 +16,11 @@
 		7547239F284CD59400D3FD12 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7547239E284CD59400D3FD12 /* TestViewController.swift */; };
 		754723A2284CDB9100D3FD12 /* DemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754723A0284CDB9100D3FD12 /* DemoTableViewCell.swift */; };
 		754723A3284CDB9100D3FD12 /* DemoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 754723A1284CDB9100D3FD12 /* DemoTableViewCell.xib */; };
+		754723A6284CE09A00D3FD12 /* CustomCellsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754723A5284CE09A00D3FD12 /* CustomCellsViewController.swift */; };
+		754723AA284CE33C00D3FD12 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754723A8284CE33C00D3FD12 /* MyTableViewCell.swift */; };
+		754723AB284CE33C00D3FD12 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 754723A9284CE33C00D3FD12 /* MyTableViewCell.xib */; };
+		754723AE284CE6FE00D3FD12 /* FieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754723AC284CE6FE00D3FD12 /* FieldTableViewCell.swift */; };
+		754723AF284CE6FF00D3FD12 /* FieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 754723AD284CE6FE00D3FD12 /* FieldTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,11 @@
 		7547239E284CD59400D3FD12 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		754723A0284CDB9100D3FD12 /* DemoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewCell.swift; sourceTree = "<group>"; };
 		754723A1284CDB9100D3FD12 /* DemoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoTableViewCell.xib; sourceTree = "<group>"; };
+		754723A5284CE09A00D3FD12 /* CustomCellsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellsViewController.swift; sourceTree = "<group>"; };
+		754723A8284CE33C00D3FD12 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		754723A9284CE33C00D3FD12 /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		754723AC284CE6FE00D3FD12 /* FieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldTableViewCell.swift; sourceTree = "<group>"; };
+		754723AD284CE6FE00D3FD12 /* FieldTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FieldTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +76,7 @@
 				75472388284CCDFE00D3FD12 /* SceneDelegate.swift */,
 				7547239A284CCE6C00D3FD12 /* Contacts */,
 				7547239D284CD56C00D3FD12 /* Test */,
+				754723A4284CE05500D3FD12 /* CustomCells */,
 				7547238C284CCDFE00D3FD12 /* Main.storyboard */,
 				7547238F284CCE0200D3FD12 /* Assets.xcassets */,
 				75472391284CCE0200D3FD12 /* LaunchScreen.storyboard */,
@@ -90,6 +101,34 @@
 				754723A1284CDB9100D3FD12 /* DemoTableViewCell.xib */,
 			);
 			path = Test;
+			sourceTree = "<group>";
+		};
+		754723A4284CE05500D3FD12 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				754723A5284CE09A00D3FD12 /* CustomCellsViewController.swift */,
+				754723B0284CE70400D3FD12 /* MeTableViewCell */,
+				754723B2284CE72100D3FD12 /* FieldTableViewCell */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		754723B0284CE70400D3FD12 /* MeTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				754723A8284CE33C00D3FD12 /* MyTableViewCell.swift */,
+				754723A9284CE33C00D3FD12 /* MyTableViewCell.xib */,
+			);
+			path = MeTableViewCell;
+			sourceTree = "<group>";
+		};
+		754723B2284CE72100D3FD12 /* FieldTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				754723AC284CE6FE00D3FD12 /* FieldTableViewCell.swift */,
+				754723AD284CE6FE00D3FD12 /* FieldTableViewCell.xib */,
+			);
+			path = FieldTableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +189,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				754723AB284CE33C00D3FD12 /* MyTableViewCell.xib in Resources */,
 				75472393284CCE0200D3FD12 /* LaunchScreen.storyboard in Resources */,
+				754723AF284CE6FF00D3FD12 /* FieldTableViewCell.xib in Resources */,
 				75472390284CCE0200D3FD12 /* Assets.xcassets in Resources */,
 				754723A3284CDB9100D3FD12 /* DemoTableViewCell.xib in Resources */,
 				7547238E284CCDFE00D3FD12 /* Main.storyboard in Resources */,
@@ -164,11 +205,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				754723AA284CE33C00D3FD12 /* MyTableViewCell.swift in Sources */,
 				7547239C284CCEFE00D3FD12 /* ContactsViewController.swift in Sources */,
+				754723AE284CE6FE00D3FD12 /* FieldTableViewCell.swift in Sources */,
 				75472387284CCDFE00D3FD12 /* AppDelegate.swift in Sources */,
 				7547239F284CD59400D3FD12 /* TestViewController.swift in Sources */,
 				754723A2284CDB9100D3FD12 /* DemoTableViewCell.swift in Sources */,
 				75472389284CCDFE00D3FD12 /* SceneDelegate.swift in Sources */,
+				754723A6284CE09A00D3FD12 /* CustomCellsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
