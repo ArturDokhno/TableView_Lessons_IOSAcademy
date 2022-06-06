@@ -27,6 +27,7 @@
 		754723AB284CE33C00D3FD12 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 754723A9284CE33C00D3FD12 /* MyTableViewCell.xib */; };
 		754723AE284CE6FE00D3FD12 /* FieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754723AC284CE6FE00D3FD12 /* FieldTableViewCell.swift */; };
 		754723AF284CE6FF00D3FD12 /* FieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 754723AD284CE6FE00D3FD12 /* FieldTableViewCell.xib */; };
+		75DA338A284E3D9F001AF2FE /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DA3389284E3D9F001AF2FE /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		754723A9284CE33C00D3FD12 /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
 		754723AC284CE6FE00D3FD12 /* FieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldTableViewCell.swift; sourceTree = "<group>"; };
 		754723AD284CE6FE00D3FD12 /* FieldTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FieldTableViewCell.xib; sourceTree = "<group>"; };
+		75DA3389284E3D9F001AF2FE /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				7547239D284CD56C00D3FD12 /* Test */,
 				754723A4284CE05500D3FD12 /* CustomCells */,
 				754723B3284CF75100D3FD12 /* CollectionCell */,
+				75DA3388284E3CC6001AF2FE /* SearchableTableView */,
 				7547238C284CCDFE00D3FD12 /* Main.storyboard */,
 				7547238F284CCE0200D3FD12 /* Assets.xcassets */,
 				75472391284CCE0200D3FD12 /* LaunchScreen.storyboard */,
@@ -171,6 +174,14 @@
 				75115028284CFB10002301A0 /* Model.swift */,
 			);
 			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		75DA3388284E3CC6001AF2FE /* SearchableTableView */ = {
+			isa = PBXGroup;
+			children = (
+				75DA3389284E3D9F001AF2FE /* SearchViewController.swift */,
+			);
+			path = SearchableTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 				75472387284CCDFE00D3FD12 /* AppDelegate.swift in Sources */,
 				7547239F284CD59400D3FD12 /* TestViewController.swift in Sources */,
 				75115022284CFA1D002301A0 /* CollectionTableViewCell.swift in Sources */,
+				75DA338A284E3D9F001AF2FE /* SearchViewController.swift in Sources */,
 				754723A2284CDB9100D3FD12 /* DemoTableViewCell.swift in Sources */,
 				7511501A284CF7DA002301A0 /* CollectionCellViewController.swift in Sources */,
 				75472389284CCDFE00D3FD12 /* SceneDelegate.swift in Sources */,
