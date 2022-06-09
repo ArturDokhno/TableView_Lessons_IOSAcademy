@@ -27,6 +27,8 @@
 		754723AB284CE33C00D3FD12 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 754723A9284CE33C00D3FD12 /* MyTableViewCell.xib */; };
 		754723AE284CE6FE00D3FD12 /* FieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754723AC284CE6FE00D3FD12 /* FieldTableViewCell.swift */; };
 		754723AF284CE6FF00D3FD12 /* FieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 754723AD284CE6FE00D3FD12 /* FieldTableViewCell.xib */; };
+		759F83E12852206900CAE74F /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759F83E02852206900CAE74F /* MyTableViewController.swift */; };
+		759F83E32852213600CAE74F /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759F83E22852213600CAE74F /* MyViewController.swift */; };
 		75DA338A284E3D9F001AF2FE /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DA3389284E3D9F001AF2FE /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +55,8 @@
 		754723A9284CE33C00D3FD12 /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
 		754723AC284CE6FE00D3FD12 /* FieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldTableViewCell.swift; sourceTree = "<group>"; };
 		754723AD284CE6FE00D3FD12 /* FieldTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FieldTableViewCell.xib; sourceTree = "<group>"; };
+		759F83E02852206900CAE74F /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		759F83E22852213600CAE74F /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		75DA3389284E3D9F001AF2FE /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,6 +115,7 @@
 				754723A4284CE05500D3FD12 /* CustomCells */,
 				754723B3284CF75100D3FD12 /* CollectionCell */,
 				75DA3388284E3CC6001AF2FE /* SearchableTableView */,
+				759F83DD28521FC100CAE74F /* OneTableViewController */,
 				7547238C284CCDFE00D3FD12 /* Main.storyboard */,
 				7547238F284CCE0200D3FD12 /* Assets.xcassets */,
 				75472391284CCE0200D3FD12 /* LaunchScreen.storyboard */,
@@ -174,6 +179,15 @@
 				75115028284CFB10002301A0 /* Model.swift */,
 			);
 			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		759F83DD28521FC100CAE74F /* OneTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				759F83E22852213600CAE74F /* MyViewController.swift */,
+				759F83E02852206900CAE74F /* MyTableViewController.swift */,
+			);
+			path = OneTableViewController;
 			sourceTree = "<group>";
 		};
 		75DA3388284E3CC6001AF2FE /* SearchableTableView */ = {
@@ -261,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75115026284CFA33002301A0 /* MyCollectionViewCell.swift in Sources */,
+				759F83E12852206900CAE74F /* MyTableViewController.swift in Sources */,
 				754723AA284CE33C00D3FD12 /* MyTableViewCell.swift in Sources */,
 				7547239C284CCEFE00D3FD12 /* ContactsViewController.swift in Sources */,
 				75115029284CFB10002301A0 /* Model.swift in Sources */,
@@ -272,6 +287,7 @@
 				754723A2284CDB9100D3FD12 /* DemoTableViewCell.swift in Sources */,
 				7511501A284CF7DA002301A0 /* CollectionCellViewController.swift in Sources */,
 				75472389284CCDFE00D3FD12 /* SceneDelegate.swift in Sources */,
+				759F83E32852213600CAE74F /* MyViewController.swift in Sources */,
 				754723A6284CE09A00D3FD12 /* CustomCellsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
