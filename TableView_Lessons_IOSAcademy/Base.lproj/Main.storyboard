@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wBQ-mC-pZH">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SOk-aY-0Pg">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -50,6 +50,37 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qQV-Gb-4DT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2126.0869565217395" y="1474.5535714285713"/>
+        </scene>
+        <!--Inastagram-->
+        <scene sceneID="6yH-fb-YEt">
+            <objects>
+                <viewController id="0WW-4X-IzO" customClass="InstagramViewController" customModule="TableView_Lessons_IOSAcademy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lO9-RO-dw1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ugD-9L-LOH">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="MQO-cl-B7Z"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="MQO-cl-B7Z" firstAttribute="bottom" secondItem="ugD-9L-LOH" secondAttribute="bottom" id="ON4-ig-KB4"/>
+                            <constraint firstItem="MQO-cl-B7Z" firstAttribute="trailing" secondItem="ugD-9L-LOH" secondAttribute="trailing" id="i5D-u1-F9J"/>
+                            <constraint firstItem="ugD-9L-LOH" firstAttribute="top" secondItem="MQO-cl-B7Z" secondAttribute="top" id="mDx-Wh-yDB"/>
+                            <constraint firstItem="ugD-9L-LOH" firstAttribute="leading" secondItem="MQO-cl-B7Z" secondAttribute="leading" id="qme-CZ-wif"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Inastagram" id="Cim-9f-esj"/>
+                    <connections>
+                        <outlet property="tableView" destination="ugD-9L-LOH" id="1Gv-ZO-D8A"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2AG-fX-QAV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2124.6376811594205" y="-609.375"/>
         </scene>
         <!--Contacts View Controller-->
         <scene sceneID="s2O-2k-Asb">
@@ -286,6 +317,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hEc-J0-XMe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1215.9420289855072" y="1474.5535714285713"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="JdR-sm-NXL">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="SOk-aY-0Pg" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="r7e-11-uMy">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="0WW-4X-IzO" kind="relationship" relationship="rootViewController" id="p5H-8q-wnY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SoZ-o2-nbq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1215.9420289855072" y="-609.375"/>
         </scene>
     </scenes>
     <resources>

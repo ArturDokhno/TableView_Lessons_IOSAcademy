@@ -13,6 +13,10 @@
 		75115026284CFA33002301A0 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75115024284CFA33002301A0 /* MyCollectionViewCell.swift */; };
 		75115027284CFA33002301A0 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75115025284CFA33002301A0 /* MyCollectionViewCell.xib */; };
 		75115029284CFB10002301A0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75115028284CFB10002301A0 /* Model.swift */; };
+		753DDCA828586101003BA7CA /* InstagramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753DDCA728586101003BA7CA /* InstagramViewController.swift */; };
+		753DDCAD285862EE003BA7CA /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753DDCAB285862EE003BA7CA /* PostTableViewCell.swift */; };
+		753DDCAE285862EE003BA7CA /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 753DDCAC285862EE003BA7CA /* PostTableViewCell.xib */; };
+		753DDCB0285865D1003BA7CA /* InstagramPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753DDCAF285865D1003BA7CA /* InstagramPost.swift */; };
 		75472387284CCDFE00D3FD12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75472386284CCDFE00D3FD12 /* AppDelegate.swift */; };
 		75472389284CCDFE00D3FD12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75472388284CCDFE00D3FD12 /* SceneDelegate.swift */; };
 		7547238E284CCDFE00D3FD12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7547238C284CCDFE00D3FD12 /* Main.storyboard */; };
@@ -39,6 +43,10 @@
 		75115024284CFA33002301A0 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		75115025284CFA33002301A0 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
 		75115028284CFB10002301A0 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		753DDCA728586101003BA7CA /* InstagramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramViewController.swift; sourceTree = "<group>"; };
+		753DDCAB285862EE003BA7CA /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		753DDCAC285862EE003BA7CA /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		753DDCAF285865D1003BA7CA /* InstagramPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramPost.swift; sourceTree = "<group>"; };
 		75472383284CCDFE00D3FD12 /* TableView_Lessons_IOSAcademy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableView_Lessons_IOSAcademy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75472386284CCDFE00D3FD12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75472388284CCDFE00D3FD12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +97,17 @@
 			path = TableCells;
 			sourceTree = "<group>";
 		};
+		753DDCA628585FDE003BA7CA /* InstagramFeed */ = {
+			isa = PBXGroup;
+			children = (
+				753DDCA728586101003BA7CA /* InstagramViewController.swift */,
+				753DDCAB285862EE003BA7CA /* PostTableViewCell.swift */,
+				753DDCAC285862EE003BA7CA /* PostTableViewCell.xib */,
+				753DDCAF285865D1003BA7CA /* InstagramPost.swift */,
+			);
+			path = InstagramFeed;
+			sourceTree = "<group>";
+		};
 		7547237A284CCDFE00D3FD12 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +129,7 @@
 			children = (
 				75472386284CCDFE00D3FD12 /* AppDelegate.swift */,
 				75472388284CCDFE00D3FD12 /* SceneDelegate.swift */,
+				753DDCA628585FDE003BA7CA /* InstagramFeed */,
 				7547239A284CCE6C00D3FD12 /* Contacts */,
 				7547239D284CD56C00D3FD12 /* Test */,
 				754723A4284CE05500D3FD12 /* CustomCells */,
@@ -259,6 +279,7 @@
 				75115023284CFA1D002301A0 /* CollectionTableViewCell.xib in Resources */,
 				754723AB284CE33C00D3FD12 /* MyTableViewCell.xib in Resources */,
 				75472393284CCE0200D3FD12 /* LaunchScreen.storyboard in Resources */,
+				753DDCAE285862EE003BA7CA /* PostTableViewCell.xib in Resources */,
 				754723AF284CE6FF00D3FD12 /* FieldTableViewCell.xib in Resources */,
 				75472390284CCE0200D3FD12 /* Assets.xcassets in Resources */,
 				754723A3284CDB9100D3FD12 /* DemoTableViewCell.xib in Resources */,
@@ -276,7 +297,9 @@
 			files = (
 				75115026284CFA33002301A0 /* MyCollectionViewCell.swift in Sources */,
 				759F83E12852206900CAE74F /* MyTableViewController.swift in Sources */,
+				753DDCAD285862EE003BA7CA /* PostTableViewCell.swift in Sources */,
 				754723AA284CE33C00D3FD12 /* MyTableViewCell.swift in Sources */,
+				753DDCB0285865D1003BA7CA /* InstagramPost.swift in Sources */,
 				7547239C284CCEFE00D3FD12 /* ContactsViewController.swift in Sources */,
 				75115029284CFB10002301A0 /* Model.swift in Sources */,
 				754723AE284CE6FE00D3FD12 /* FieldTableViewCell.swift in Sources */,
@@ -287,6 +310,7 @@
 				754723A2284CDB9100D3FD12 /* DemoTableViewCell.swift in Sources */,
 				7511501A284CF7DA002301A0 /* CollectionCellViewController.swift in Sources */,
 				75472389284CCDFE00D3FD12 /* SceneDelegate.swift in Sources */,
+				753DDCA828586101003BA7CA /* InstagramViewController.swift in Sources */,
 				759F83E32852213600CAE74F /* MyViewController.swift in Sources */,
 				754723A6284CE09A00D3FD12 /* CustomCellsViewController.swift in Sources */,
 			);
